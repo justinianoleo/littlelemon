@@ -1,3 +1,8 @@
+:root {
+  --yellow: #f4ce14;
+  --white: #edefee;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,217 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.markazi-font {
+  font-family: "Markazi Text", serif;
+}
+
+p,
+.karla-font {
+  font-family: "Karla", sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+.main-padding {
+  padding: 0 20em;
+}
+
+.center-align-model {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-yellow {
+  background-color: var(--yellow);
+  padding: 5px 10px;
+  color: black;
+}
+/**/
+
+.header-little-lemmon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.header-little-lemmon nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header-little-lemmon a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.hero-section {
+  height: 400px;
+  background-color: #495e57;
+}
+
+.hero-section .main-container {
+  display: flex;
+  height: 100%;
+}
+
+.hero-section h1 {
+  color: var(--yellow);
+}
+
+.hero-section h2,
+.hero-section p {
+  color: var(--white);
+}
+
+.hero-section .box-1,
+.hero-section .box-2 {
+  width: 50%;
+}
+
+.hero-section .box-1 {
+  text-align: left;
 }
